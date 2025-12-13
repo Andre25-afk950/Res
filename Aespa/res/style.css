@@ -1,0 +1,71 @@
+@font-face {
+  font-family: swirlyCanalope;
+  src: url(SwirlyCanalope.ttf);
+}
+@font-face {
+  font-family: cookieCrisp;
+  src: url(CookieCrisp.ttf);
+}
+*{
+ margin:0;padding:0;
+}
+body{
+ background:#e6e6fa;
+ font-family:fantasy;
+ padding:6px;
+}
+#songPrint{
+ height:75px;
+ padding:6px;
+ background:#007bff;
+ overflow:hidden;
+ position:relative;
+}
+#tracklist{
+ background:#007bff;
+ margin-top:4px;
+ padding:12px 8px 6px;
+ margin-bottom:8px;
+ font-family:fantasy;
+}
+.item{
+ color:pink;
+ background:black;
+ margin-bottom:8px;
+ padding:4px;
+ border:2px solid pink;
+ font-size:16px;
+ border-radius:4px;
+ user-select:none;
+ box-shadow:2px 3px 2px silver;
+}
+#thumbnail{
+ image-rendering:pixelated;
+ width:75px;
+ float:left;
+ margin-right:12px;
+ box-sizing:border-box;
+ border:1px solid white;
+}
+#judulLagu{
+ font-size:24px;
+ font-weight:bold;
+ font-family:cookieCrisp;
+}
+#artist{
+ font-size:14px;
+ overflow:hidden;
+}
+#creator{
+ font-size:8px;
+ position:absolute;
+ right:8px;
+ bottom:4px;
+ font-style:italic;
+ color:#ffffff;
+ text-decoration:underline;
+}
+.swirly{
+ font-family:swirlyCanalope;
+ font-size:14px;
+}
