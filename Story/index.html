@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Story Interaktif</title>
+<style>
+body {
+  background: #17152e;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 25px;
+}
+button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  margin: 12px 0;
+  border: 0;
+  border-radius: 15px;
+  background: #a855f7;
+  color: white;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+
+<h2>Hai, kamu! 🥰</h2>
+<p>Pilih sesuatu untukku.</p>
+
+<button onclick="pilih('Anime romantis')">
+  🌸 Anime romantis
+</button>
+
+<button onclick="pilih('Game retro')">
+  🎮 Game retro
+</button>
+
+<p id="hasil">Pilih salah satu tombol!</p>
+
+<script>
+function pilih(nama) {
+  document.getElementById("hasil").textContent =
+    "Kamu memilih " + nama + " ❤️";
+}
+</script>
+
+</body>
+</html>
